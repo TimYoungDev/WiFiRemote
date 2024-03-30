@@ -7,6 +7,6 @@ RUN npm run build --prod
 
 FROM nginx:1.25-alpine as server
 COPY --from=build /dist/wifi-remote/browser /usr/share/nginx/html
-COPY --form-build /nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=build /nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
