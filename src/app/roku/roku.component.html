@@ -1,0 +1,59 @@
+<div class="container">
+  <div class="container-item">
+    <button mat-icon-button (click)="buttonClick(RokuCommand.back)">
+      <mat-icon>reply</mat-icon>
+    </button>
+    <button mat-icon-button></button>
+    <button mat-icon-button (click)="buttonClick(RokuCommand.home)">
+      <mat-icon>home</mat-icon>
+    </button>
+  </div>
+
+  <div class="container-item">
+    <button mat-icon-button></button>
+    <button mat-icon-button (click)="buttonClick(RokuCommand.up)">
+      <mat-icon>arrow_upward</mat-icon>
+    </button>
+    <button mat-icon-button></button>
+  </div>
+
+  <div class="container-item">
+    <button mat-icon-button (click)="buttonClick(RokuCommand.left)">
+      <mat-icon>arrow_back</mat-icon>
+    </button>
+    <button mat-icon-button (click)="buttonClick(RokuCommand.enter)">
+      <mat-icon>check</mat-icon>
+    </button>
+    <button mat-icon-button (click)="buttonClick(RokuCommand.right)">
+      <mat-icon>arrow_forward</mat-icon>
+    </button>
+  </div>
+
+  <div class="container-item">
+    <button mat-icon-button></button>
+    <button mat-icon-button (click)="buttonClick(RokuCommand.down)">
+      <mat-icon>arrow_downward</mat-icon>
+    </button>
+    <button mat-icon-button></button>
+  </div>
+
+  <div class="container-item">
+    <button mat-icon-button></button>
+    <button mat-icon-button></button>
+    <button mat-icon-button (click)="buttonClick(RokuCommand.info)">
+      <mat-icon>settings</mat-icon>
+    </button>
+  </div>
+
+  <div class="container-item">
+    <button mat-icon-button (click)="buttonClick(RokuCommand.reverse)">
+      <mat-icon>first_page</mat-icon>
+    </button>
+    <button mat-icon-button (click)="buttonClick(RokuCommand.play)">
+      <mat-icon>play_arrow</mat-icon>
+    </button>
+    <button mat-icon-button (click)="buttonClick(RokuCommand.forward)">
+      <mat-icon>last_page</mat-icon>
+    </button>
+  </div>
+</div>
